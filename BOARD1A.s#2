@@ -5456,7 +5456,6 @@ W = angled&lt;p&gt;
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
-<clearance class="0" value="0.205"/>
 </class>
 </classes>
 <parts>
@@ -5768,8 +5767,8 @@ W = angled&lt;p&gt;
 <instance part="R17" gate="G$1" x="119.38" y="66.04" rot="R180"/>
 <instance part="R18" gate="G$1" x="157.48" y="66.04" rot="R180"/>
 <instance part="P+11" gate="1" x="53.34" y="38.1" rot="R90"/>
-<instance part="P+12" gate="1" x="53.34" y="43.18" rot="R90"/>
-<instance part="GND11" gate="1" x="53.34" y="10.16" rot="R270"/>
+<instance part="P+12" gate="1" x="50.8" y="10.16" rot="R90"/>
+<instance part="GND11" gate="1" x="50.8" y="43.18" rot="R270"/>
 <instance part="P+13" gate="1" x="134.62" y="50.8" rot="R270"/>
 <instance part="JMP1" gate="-0R" x="127" y="50.8" rot="R270"/>
 <instance part="JMP1" gate="G$2" x="124.46" y="53.34" rot="R90"/>
@@ -6013,11 +6012,6 @@ W = angled&lt;p&gt;
 <pinref part="U1" gate="1" pin="!RESET"/>
 </segment>
 <segment>
-<pinref part="P+12" gate="1" pin="+5V"/>
-<wire x1="60.96" y1="43.18" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U1" gate="1" pin="VDD"/>
-</segment>
-<segment>
 <pinref part="JMP1" gate="-0R" pin="1"/>
 <pinref part="P+13" gate="1" pin="+5V"/>
 <wire x1="132.08" y1="50.8" x2="129.54" y2="50.8" width="0.1524" layer="91"/>
@@ -6036,6 +6030,11 @@ W = angled&lt;p&gt;
 <pinref part="SV1" gate="G$1" pin="4"/>
 <pinref part="P+16" gate="1" pin="+5V"/>
 <wire x1="53.34" y1="-40.64" x2="63.5" y2="-40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="1" pin="VSS"/>
+<pinref part="P+12" gate="1" pin="+5V"/>
+<wire x1="60.96" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6080,11 +6079,6 @@ W = angled&lt;p&gt;
 <pinref part="K8" gate="KC" pin="COILB"/>
 </segment>
 <segment>
-<pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="60.96" y1="10.16" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="U1" gate="1" pin="VSS"/>
-</segment>
-<segment>
 <pinref part="JMP1" gate="-0R" pin="3"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="121.92" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
@@ -6108,6 +6102,11 @@ W = angled&lt;p&gt;
 <wire x1="60.96" y1="33.02" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="U1" gate="1" pin="INT"/>
+</segment>
+<segment>
+<pinref part="U1" gate="1" pin="VDD"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="60.96" y1="43.18" x2="53.34" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="K1" class="0">
@@ -6399,29 +6398,13 @@ W = angled&lt;p&gt;
 <approved hash="208,1,15.24,27.94,GND,sup,,,,"/>
 <approved hash="208,1,-17.78,-7.62,GND,sup,,,,"/>
 <approved hash="208,1,-2.54,-17.78,GND,sup,,,,"/>
+<approved hash="208,1,55.88,10.16,GND,sup,,,,"/>
 <approved hash="208,1,121.92,50.8,GND,sup,,,,"/>
 <approved hash="208,1,121.92,27.94,GND,sup,,,,"/>
 <approved hash="208,1,121.92,5.08,GND,sup,,,,"/>
 <approved hash="208,1,88.9,-40.64,GND,sup,,,,"/>
 <approved hash="208,1,53.34,33.02,GND,sup,,,,"/>
 <approved hash="208,1,60.96,33.02,GND,out,,,,"/>
-<approved hash="113,1,63.5,68.58,K6,,,,,"/>
-<approved hash="113,1,101.6,68.58,K7,,,,,"/>
-<approved hash="113,1,139.7,68.58,K8,,,,,"/>
-<approved hash="113,1,63.5,88.9,K1,,,,,"/>
-<approved hash="113,1,101.6,88.9,K2,,,,,"/>
-<approved hash="113,1,139.7,88.9,K3,,,,,"/>
-<approved hash="113,1,177.8,88.9,K4,,,,,"/>
-<approved hash="113,1,215.9,88.9,K5,,,,,"/>
-<approved hash="113,1,81.28,85.3652,R11,,,,,"/>
-<approved hash="113,1,119.38,85.3652,R12,,,,,"/>
-<approved hash="113,1,157.48,85.3652,R13,,,,,"/>
-<approved hash="113,1,195.58,85.3652,R14,,,,,"/>
-<approved hash="113,1,233.68,85.3652,R15,,,,,"/>
-<approved hash="113,1,81.28,65.0452,R16,,,,,"/>
-<approved hash="113,1,119.38,65.0452,R17,,,,,"/>
-<approved hash="113,1,157.48,65.0452,R18,,,,,"/>
-<approved hash="113,1,71.12,-37.9053,SV1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

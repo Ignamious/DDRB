@@ -5456,7 +5456,6 @@ W = angled&lt;p&gt;
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
-<clearance class="0" value="0.205"/>
 </class>
 </classes>
 <parts>
@@ -6399,29 +6398,13 @@ W = angled&lt;p&gt;
 <approved hash="208,1,15.24,27.94,GND,sup,,,,"/>
 <approved hash="208,1,-17.78,-7.62,GND,sup,,,,"/>
 <approved hash="208,1,-2.54,-17.78,GND,sup,,,,"/>
+<approved hash="208,1,55.88,10.16,GND,sup,,,,"/>
 <approved hash="208,1,121.92,50.8,GND,sup,,,,"/>
 <approved hash="208,1,121.92,27.94,GND,sup,,,,"/>
 <approved hash="208,1,121.92,5.08,GND,sup,,,,"/>
 <approved hash="208,1,88.9,-40.64,GND,sup,,,,"/>
 <approved hash="208,1,53.34,33.02,GND,sup,,,,"/>
 <approved hash="208,1,60.96,33.02,GND,out,,,,"/>
-<approved hash="113,1,63.5,68.58,K6,,,,,"/>
-<approved hash="113,1,101.6,68.58,K7,,,,,"/>
-<approved hash="113,1,139.7,68.58,K8,,,,,"/>
-<approved hash="113,1,63.5,88.9,K1,,,,,"/>
-<approved hash="113,1,101.6,88.9,K2,,,,,"/>
-<approved hash="113,1,139.7,88.9,K3,,,,,"/>
-<approved hash="113,1,177.8,88.9,K4,,,,,"/>
-<approved hash="113,1,215.9,88.9,K5,,,,,"/>
-<approved hash="113,1,81.28,85.3652,R11,,,,,"/>
-<approved hash="113,1,119.38,85.3652,R12,,,,,"/>
-<approved hash="113,1,157.48,85.3652,R13,,,,,"/>
-<approved hash="113,1,195.58,85.3652,R14,,,,,"/>
-<approved hash="113,1,233.68,85.3652,R15,,,,,"/>
-<approved hash="113,1,81.28,65.0452,R16,,,,,"/>
-<approved hash="113,1,119.38,65.0452,R17,,,,,"/>
-<approved hash="113,1,157.48,65.0452,R18,,,,,"/>
-<approved hash="113,1,71.12,-37.9053,SV1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
