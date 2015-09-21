@@ -1,6 +1,6 @@
 /* All Posible Hex of Cards using MCP23008 With Address. Adress is:
 
-| 0 | 1 | 0 | 0 | A2 | A1 | A0 | r/w |
+| 0 | 1 | 0 | 0 | A2 | A1 | A0 | r=1/w=0 |
 
 Full Hex  -   Board Address
 0x40      -   000

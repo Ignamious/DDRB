@@ -370,7 +370,7 @@ W = angled&lt;p&gt;
 <pad name="4" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
 <pad name="6" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
 <pad name="8" x="3.81" y="1.27" drill="1.016" shape="octagon"/>
-<text x="-4.318" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
+<text x="-6.223" y="-2.286" size="1.27" layer="21" ratio="10">1</text>
 <text x="-5.08" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="3.81" y="2.921" size="1.27" layer="21" ratio="10">8</text>
@@ -5513,7 +5513,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="147.32" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="97"/>
 <wire x1="127" y1="63.5" x2="127" y2="60.96" width="0.1524" layer="97"/>
 <wire x1="127" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="97"/>
-<wire x1="132.08" y1="60.96" x2="137.16" y2="60.96" width="0.1524" layer="97"/>
 <wire x1="137.16" y1="60.96" x2="142.24" y2="60.96" width="0.1524" layer="97"/>
 <text x="129.54" y="67.31" size="1.778" layer="97" align="center">0</text>
 <text x="129.54" y="64.77" size="1.778" layer="97" align="center">0</text>
@@ -5552,7 +5551,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="160.02" y="67.31" size="0.5334" layer="97" ratio="10" align="center">400R</text>
 <wire x1="147.32" y1="73.66" x2="152.4" y2="73.66" width="0.1524" layer="97"/>
 <wire x1="152.4" y1="73.66" x2="157.48" y2="73.66" width="0.1524" layer="97"/>
-<wire x1="182.88" y1="60.96" x2="157.48" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="182.88" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="172.72" y1="60.96" x2="167.64" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="162.56" y1="60.96" x2="157.48" y2="60.96" width="0.1524" layer="97"/>
 <wire x1="152.4" y1="60.96" x2="147.32" y2="60.96" width="0.1524" layer="97"/>
 <wire x1="147.32" y1="60.96" x2="147.32" y2="63.5" width="0.1524" layer="97"/>
 <wire x1="147.32" y1="66.04" x2="147.32" y2="68.58" width="0.1524" layer="97"/>
@@ -5561,20 +5562,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="157.48" y1="60.96" x2="157.48" y2="73.66" width="0.1524" layer="97"/>
 <wire x1="157.48" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="97"/>
 <wire x1="162.56" y1="73.66" x2="167.64" y2="73.66" width="0.1524" layer="97"/>
-<wire x1="167.64" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="97"/>
 <wire x1="172.72" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="97"/>
 <wire x1="177.8" y1="73.66" x2="182.88" y2="73.66" width="0.1524" layer="97"/>
 <wire x1="182.88" y1="73.66" x2="182.88" y2="71.12" width="0.1524" layer="97"/>
-<text x="129.54" y="59.69" size="1.778" layer="97" align="center">1</text>
-<text x="134.62" y="59.69" size="1.778" layer="97" align="center">0</text>
-<text x="139.7" y="59.69" size="1.778" layer="97" align="center">1</text>
-<text x="129.54" y="57.15" size="1.778" layer="97" align="center">1</text>
-<text x="134.62" y="57.15" size="1.778" layer="97" align="center">1</text>
-<text x="139.7" y="57.15" size="1.778" layer="97" align="center">0</text>
 <text x="165.1" y="67.31" size="0.6096" layer="97" ratio="10" align="center">1K</text>
-<text x="129.54" y="54.61" size="1.778" layer="97" align="center">1</text>
-<text x="134.62" y="54.61" size="1.778" layer="97" align="center">1</text>
-<text x="139.7" y="54.61" size="1.778" layer="97" align="center">1</text>
 <text x="144.78" y="64.77" size="0.6096" layer="97" ratio="10" align="center">10K</text>
 <text x="165.1" y="64.77" size="0.6096" layer="97" ratio="10" align="center">100K</text>
 <text x="170.18" y="67.31" size="0.6096" layer="97" ratio="10" align="center">2K</text>
@@ -5589,32 +5580,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="182.88" y1="71.12" x2="182.88" y2="68.58" width="0.1524" layer="97"/>
 <wire x1="182.88" y1="68.58" x2="182.88" y2="66.04" width="0.1524" layer="97"/>
 <wire x1="182.88" y1="66.04" x2="182.88" y2="63.5" width="0.1524" layer="97"/>
-<wire x1="182.88" y1="63.5" x2="182.88" y2="60.96" width="0.1524" layer="97"/>
-<wire x1="127" y1="60.96" x2="127" y2="58.42" width="0.1524" layer="97"/>
-<wire x1="127" y1="58.42" x2="127" y2="55.88" width="0.1524" layer="97"/>
-<wire x1="127" y1="55.88" x2="127" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="127" y1="53.34" x2="132.08" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="132.08" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="137.16" y1="53.34" x2="142.24" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="142.24" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="147.32" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="152.4" y1="53.34" x2="157.48" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="157.48" y1="53.34" x2="162.56" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="162.56" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="167.64" y1="53.34" x2="172.72" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="172.72" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="177.8" y1="53.34" x2="182.88" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="127" y1="58.42" x2="182.88" y2="58.42" width="0.1524" layer="97"/>
-<wire x1="182.88" y1="58.42" x2="182.88" y2="60.96" width="0.1524" layer="97"/>
-<wire x1="127" y1="55.88" x2="182.88" y2="55.88" width="0.1524" layer="97"/>
-<wire x1="182.88" y1="55.88" x2="182.88" y2="58.42" width="0.1524" layer="97"/>
-<wire x1="182.88" y1="55.88" x2="182.88" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="157.48" y1="60.96" x2="157.48" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="152.4" y1="60.96" x2="152.4" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="147.32" y1="60.96" x2="147.32" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="142.24" y1="60.96" x2="142.24" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="137.16" y1="60.96" x2="137.16" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="132.08" y1="60.96" x2="132.08" y2="53.34" width="0.1524" layer="97"/>
 <wire x1="147.32" y1="63.5" x2="182.88" y2="63.5" width="0.1524" layer="97"/>
 <wire x1="147.32" y1="66.04" x2="182.88" y2="66.04" width="0.1524" layer="97"/>
 <wire x1="147.32" y1="68.58" x2="182.88" y2="68.58" width="0.1524" layer="97"/>
@@ -5624,10 +5589,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="175.26" y="73.66" size="1.778" layer="97" rot="R90">-K7</text>
 <text x="160.02" y="73.66" size="1.778" layer="97" rot="R90">-K4</text>
 <text x="180.34" y="73.66" size="1.778" layer="97" rot="R90">-K8</text>
-<wire x1="162.56" y1="73.66" x2="162.56" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="167.64" y1="73.66" x2="167.64" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="172.72" y1="73.66" x2="172.72" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="177.8" y1="73.66" x2="177.8" y2="53.34" width="0.1524" layer="97"/>
 <wire x1="55.88" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="97"/>
 <wire x1="55.88" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="97"/>
 <wire x1="243.84" y1="180.34" x2="243.84" y2="86.36" width="0.1524" layer="97"/>
@@ -5651,6 +5612,46 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="170.18" y="62.23" size="0.6096" layer="97" ratio="10" align="center">20M</text>
 <text x="175.26" y="62.23" size="0.6096" layer="97" ratio="10" align="center">20M</text>
 <text x="180.34" y="62.23" size="0.6096" layer="97" ratio="10" align="center">40M</text>
+<wire x1="162.56" y1="73.66" x2="162.56" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="167.64" y1="60.96" x2="167.64" y2="73.66" width="0.1524" layer="97"/>
+<wire x1="167.64" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="97"/>
+<wire x1="172.72" y1="73.66" x2="172.72" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="172.72" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="177.8" y1="60.96" x2="177.8" y2="73.66" width="0.1524" layer="97"/>
+<wire x1="182.88" y1="60.96" x2="182.88" y2="63.5" width="0.1524" layer="97"/>
+<text x="129.54" y="59.69" size="1.778" layer="97" align="center">1</text>
+<text x="139.7" y="59.69" size="1.778" layer="97" align="center">1</text>
+<text x="134.62" y="59.69" size="1.778" layer="97" align="center">0</text>
+<text x="129.54" y="57.15" size="1.778" layer="97" align="center">1</text>
+<text x="134.62" y="57.15" size="1.778" layer="97" align="center">1</text>
+<text x="139.7" y="57.15" size="1.778" layer="97" align="center">0</text>
+<text x="139.7" y="54.61" size="1.778" layer="97" align="center">1</text>
+<text x="134.62" y="54.61" size="1.778" layer="97" align="center">1</text>
+<text x="129.54" y="54.61" size="1.778" layer="97" align="center">1</text>
+<text x="142.748" y="59.69" size="1.778" layer="97" align="center-left">EXP X1</text>
+<text x="142.748" y="57.15" size="1.778" layer="97" align="center-left">EXP X2</text>
+<text x="142.748" y="54.61" size="1.778" layer="97" align="center-left">Input Board (Hardwire)</text>
+<wire x1="127" y1="60.96" x2="127" y2="58.42" width="0.1524" layer="97"/>
+<wire x1="127" y1="58.42" x2="127" y2="55.88" width="0.1524" layer="97"/>
+<wire x1="132.08" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="97"/>
+<wire x1="142.24" y1="53.34" x2="182.88" y2="53.34" width="0.1524" layer="97"/>
+<wire x1="182.88" y1="53.34" x2="182.88" y2="55.88" width="0.1524" layer="97"/>
+<wire x1="182.88" y1="55.88" x2="182.88" y2="58.42" width="0.1524" layer="97"/>
+<wire x1="182.88" y1="58.42" x2="182.88" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="167.64" y1="60.96" x2="162.56" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="142.24" y1="60.96" x2="142.24" y2="58.42" width="0.1524" layer="97"/>
+<wire x1="142.24" y1="55.88" x2="142.24" y2="53.34" width="0.1524" layer="97"/>
+<wire x1="142.24" y1="53.34" x2="137.16" y2="53.34" width="0.1524" layer="97"/>
+<wire x1="137.16" y1="53.34" x2="137.16" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="137.16" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="132.08" y1="60.96" x2="132.08" y2="53.34" width="0.1524" layer="97"/>
+<wire x1="132.08" y1="53.34" x2="127" y2="53.34" width="0.1524" layer="97"/>
+<wire x1="127" y1="53.34" x2="127" y2="55.88" width="0.1524" layer="97"/>
+<wire x1="127" y1="55.88" x2="142.24" y2="55.88" width="0.1524" layer="97"/>
+<wire x1="142.24" y1="55.88" x2="142.24" y2="58.42" width="0.1524" layer="97"/>
+<wire x1="142.24" y1="58.42" x2="127" y2="58.42" width="0.1524" layer="97"/>
+<wire x1="142.24" y1="58.42" x2="182.88" y2="58.42" width="0.1524" layer="97"/>
+<wire x1="142.24" y1="55.88" x2="182.88" y2="55.88" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="T1" gate="G$1" x="38.1" y="154.94" smashed="yes" rot="R90">
